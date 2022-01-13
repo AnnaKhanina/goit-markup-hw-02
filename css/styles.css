@@ -18,6 +18,10 @@ a {
     text-decoration: none;
 }
 
+button {
+        cursor: pointer;
+}
+
  
 /*---------header------------*/
 
@@ -86,18 +90,26 @@ a {
     background-color: #2196F3;
 }
 
+
 /*----------projects-------*/
 
-.projects-list {     
+.about-title {
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 3;   
     letter-spacing: 0.06em;
     color: var(--header-text-color);
-    
 }
 
+.about-after-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 2.5;
+    letter-spacing: 0.03em;
+    color: var(--link-list-color);
+}
 
 /*----------footer---------*/
 
