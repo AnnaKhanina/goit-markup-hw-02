@@ -21,17 +21,18 @@ a {
  
 /*---------header------------*/
 
-.logo {
-    font-family: 'Raleway', sans-serif;
+.header-logo {
+    font-family: Raleway;
+    font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 2.58;
-    letter-spacing: 0.03em;    
-    color: #2196F3;    
+    line-height: 2.58; 
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
 }
 
-.web-color {
-    color: #212121;
+.header-web-color {
+    color: var(--header-text-color);
 }
 
 .header.list {
@@ -87,6 +88,66 @@ a {
 
 /*----------projects-------*/
 
-.projects-list {
+.projects-list {     
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 3;   
+    letter-spacing: 0.06em;
+    color: var(--header-text-color);
     
+}
+
+
+/*----------footer---------*/
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;   
+    letter-spacing: 2.58;
+    color: var(--accent-color);
+}
+
+.footer-web-color {
+    color: var(--accent-filters-color);
+}
+
+.address-list {
+    display: block;
+    font-style: normal;
+}
+
+.address-list .link-address {  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;   
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    
+}
+
+.address-list .link-tel {
+    color: var(--link-list-color);
+}
+
+.address-list .link-mail:hover,
+.address-list .link-mail:focus {
+    color: var(--accent-color);
+}
+
+.address-list .link-mail {
+    color: var(--link-list-color);
+}
+
+.address-list .link-tel:hover,
+.address-list .link-tel:focus {
+    color: var(--accent-color);
 }
