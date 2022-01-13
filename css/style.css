@@ -1,0 +1,86 @@
+:root {
+    --header-text-color:#212121; 
+    --link-list-color: #757575;   
+    --accent-color: #2196F3 ; 
+    --accent-filters-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;    
+    color: #212121;
+}
+ 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ 
+/*--------header-----------*/
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 2.58;
+    letter-spacing: 0.03em;    
+    color: #2196F3;    
+}
+
+.web-color {
+    color: #212121;
+}
+
+.header.list {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+}
+
+.header-list .header-link { 
+   color: var(--header-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+.header-list .link-mail {      
+    color: var(--link-list-color);
+}
+.link-mail:hover,
+.link-mail:focus {
+    color: var(--accent-color);
+}
+
+.header-list .link-tel {    
+    color: var(--link-list-color);
+}
+
+.link-tel:hover,
+.link-tel:focus {
+    color: var(--accent-color);
+}
+
+/* ----------hero--------*/
+
+.filters-list {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2.16;
+    letter-spacing: 0.03em;
+    color: var(--header-text-color);
+}
+
+.filters-list .filters-btn:hover,
+.filters-list .filters-btn:focus {
+    color: var(--accent-filters-color);
+    background-color: #2196F3;
+}
