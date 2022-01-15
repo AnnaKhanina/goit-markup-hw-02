@@ -106,8 +106,7 @@ button {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;   
-    text-align: center;
+    line-height: 1.36;     
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--accent-filters-color);
@@ -118,8 +117,7 @@ button {
     font-size: 16px;
     line-height: 1.87;
     display: flex;
-    align-items: center;
-    text-align: center;
+    align-items: center;    
     letter-spacing: 0.06em;
     color: var(--accent-filters-color);
     background: var(--accent-color);
