@@ -96,6 +96,11 @@ button {
 .current {
     color: var(--accent-color);
 }
+
+.header-link[href="./portfolio.html"] {
+    color: var(--accent-color);
+}
+
 /* ----------hero--------*/
 
 .hero {     
